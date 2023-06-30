@@ -1,8 +1,4 @@
-![1](https://github.com/aswin98855/heart-disease-classification/assets/116991167/51586c13-a943-4501-bad2-241164b40e9a)
-![2](https://github.com/aswin98855/heart-disease-classification/assets/116991167/4c7625b5-41d1-4bc7-b1e4-51397126f5ff)
-![3](https://github.com/aswin98855/heart-disease-classification/assets/116991167/09714f14-dd63-415e-9c4a-f1ff671db3d1)
-![4](https://github.com/aswin98855/heart-disease-classification/assets/116991167/fd0afbee-defe-4410-8a9b-19cd805cc6f2)
-![5](https://github.com/aswin98855/heart-disease-classification/assets/116991167/0d596622-4204-41b8-8d13-2b5c9b52020b)
+ 
 # heart-disease-classification
 
 To work on this Download Miniconda3 Into your system
@@ -77,3 +73,4 @@ Open miniconda3 prompt shell and download **pandas, numpy, matplotlib, scikit le
 ## 11. Correlation matrix for dataset :
 
 ![11](https://github.com/aswin98855/heart-disease-classification/assets/116991167/8a1fdeeb-be78-4e81-a8c3-f84f11ea3ef8)
+ 
