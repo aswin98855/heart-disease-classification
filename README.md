@@ -1,15 +1,15 @@
  
 # heart-disease-classification
 
-To work on this Download Miniconda3 Into your system
+To work on this Project Download Miniconda3 Into your system
 
-Open miniconda3 prompt shell and download **pandas, numpy, matplotlib, scikit learn** packages using following command
+Open miniconda3 prompt shell and download **pandas, numpy, matplotlib, scikit learn** packages using following command :
 
-**conda install pandas numpy matplotlib scikit-learn**
+` conda install pandas numpy matplotlib scikit-learn`
 
+## The clear working of this project is briefly worked in Jupyter Notebook (Attached with this repository). Every step explanation is explained with markdowns in Jupyter Notebook.
 
-## Let's see a outlook of this project :
-
+## Let's see outlook of this project :
 
 **This project looks into using various Python-based machine learning and data science libraries in an attempt to build a machine learning model capable of predicting whether or not someone has heart disease based on their medical attributes.**
 
@@ -21,6 +21,62 @@ Open miniconda3 prompt shell and download **pandas, numpy, matplotlib, scikit le
 4. Features
 5. Modelling
 6. Experimentation
+
+## Data set
+
+The original dataset used in this project came from the Cleavland data from the UCI Macine Learning Repository. https://archive.ics.uci.edu/dataset/45/heart+disease
+
+### Data Set Column Parameters :
+
+1. age: Displays the age of the individual.
+
+2. sex: Displays the gender of the individual using the following format :
+    * 1 = male
+    * 0 = female
+
+3. cp- Chest-pain type: displays the type of chest-pain experienced by the individual using the following format :
+      * 0 = typical angina
+      * 1 = atypical angina
+      * 2 = non — anginal pain
+      * 3 = asymptotic
+
+4. trestbps- Resting Blood Pressure: displays the resting blood pressure value of an individual in mmHg (unit). anything above 130-140 is typically cause for concern.
+
+5. chol- Serum Cholestrol: displays the serum cholesterol in mg/dl (unit)
+
+6. fbs- Fasting Blood Sugar: compares the fasting blood sugar value of an individual with 120mg/dl.
+    * If fasting blood sugar > 120mg/dl then : 1 (true)
+    * else : 0 (false) '>126' mg/dL signals diabetes
+
+7. restecg- Resting ECG : displays resting electrocardiographic results
+      * 0 = normal
+      * 1 = having ST-T wave abnormality
+      * 2 = left ventricular hyperthrophy
+
+8. thalach- Max heart rate achieved : displays the max heart rate achieved by an individual.
+
+9. exang- Exercise induced angina :
+      * 1 = yes
+      * 0 = no
+
+10. oldpeak- ST depression induced by exercise relative to rest: displays the value which is an integer or float.
+
+11. slope- Slope of the peak exercise ST segment :
+       * 0 = upsloping: better heart rate with excercise (uncommon)
+       * 1 = flat: minimal change (typical healthy heart)
+       * 2 = downsloping: signs of unhealthy heart
+
+12. ca- Number of major vessels (0–3) colored by flourosopy : displays the value as integer or float.
+
+13. thal : Displays the thalassemia :
+       * 1,3 = normal
+       * 6 = fixed defect
+       * 7 = reversible defect: no proper blood movement when excercising
+
+14. target : Displays whether the individual is suffering from heart disease or not :
+       * 1 = yes
+       * 0 = no
+
 
 ## We're going to try 3 different machine learning models:
 
@@ -74,3 +130,9 @@ Open miniconda3 prompt shell and download **pandas, numpy, matplotlib, scikit le
 
 ![11](https://github.com/aswin98855/heart-disease-classification/assets/116991167/8a1fdeeb-be78-4e81-a8c3-f84f11ea3ef8)
  
+## 12. ROC (Receiver Operating Characteristic) curve for Logistic Regression :
+
+![12](https://github.com/aswin98855/heart-disease-classification/assets/116991167/9eca0286-711d-41c1-80d1-97aa1354b25e)
+
+
+### The final accuracy(highest accuracy) after hyper tuning is `0.8852459016393442` with `LogisticRegression()`.
